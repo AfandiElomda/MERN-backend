@@ -1,10 +1,10 @@
-import express, { Router } from "express";
-import { getAllUsers } from "../controllers/user.controller";
+import express from "express";
+
 
 import {
     createProperty,deleteProperty,getAllProperties,getPropertyDetail,
     updateProperty
-} from './controllers/user.controller.js';
+} from '../controllers/property.controller.js';
 
 const router = express.Router();
 
